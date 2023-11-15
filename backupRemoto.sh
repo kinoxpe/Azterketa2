@@ -11,5 +11,5 @@ TODAYS_DATE=$(date "+%Y-%m-%d")
 ssh "$REMOTE_SERVER" "mkdir -p $REMOTE_BACKUP_DIR/$TODAYS_DATE"
 
 # Kopia egin zerbitzarian
-rsync -av --link-dest="$REMOTE_BACKUP_DIR/$(date -d 'yesterday' '+%Y-%m-%d')" /home/luken/Segurtasuna/ "$REMOTE_SERVER:$REMOTE_BACKUP_DIR/$TODAYS_DATE/"
+rsync -av --link-dest="$REMOTE_BACKUP_DIR/$(date -d 'yesterday' '+%Y-%m-%d')" /home/asier/Segurtasuna/ "$REMOTE_SERVER:$REMOTE_BACKUP_DIR/$TODAYS_DATE/"
 
