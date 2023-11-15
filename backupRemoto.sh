@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Zerbitzariaren ip-a eta non egingo diren kopiak
-REMOTE_SERVER="luken@35.228.163.18"
+REMOTE_SERVER="asier@34.142.19.23"
 REMOTE_BACKUP_DIR="/var/tmp/Backups"
 
 # Gaurko data lortu
